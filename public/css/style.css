@@ -1,0 +1,30 @@
+#slider{
+    height: 80vh;
+}
+#slider .carousel-inner{
+    height: inherit !important;
+}
+.slide_donor{
+    border: 1px solid #0a3c93;
+    padding: 10px;
+}
+.banner-img{
+    height: 30em;
+    background: url("../slides/slide-1.jpg") no-repeat center;
+    background-size: 100%;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+}
+#btnLoader{
+    width: 2em;
+    display: none;
+}
+.form-control{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.textarea{
+    height: 10em;
+    resize: none;
+}

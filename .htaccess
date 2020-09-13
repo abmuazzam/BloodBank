@@ -1,0 +1,13 @@
+#Stop Directory Listing
+options -Indexes
+
+
+RewriteEngine On
+#Not A Directory
+RewriteCond %{REQUEST_FILENAME} !-d
+#Not A File
+RewriteCond %{REQUEST_FILENAME} !-f
+#Not A Link
+RewriteCond %{REQUEST_FILENAME} !-l
+#Query String Append
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
